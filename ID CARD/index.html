@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> IIITK Student ID Card </title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+  
+
+    <div class="id-card" id="card">
+        <img src="images.png" class="logo" alt="IIITK Logo" />
+    <h2>IIITK STUDENT ID CARD</h2>
+    <div class="field"><span>Name:</span> <span id="name">Himanshu Kumar</span></div>
+    <div class="field"><span>Reg No.:</span> <span id="studentId"> 900 </span></div>
+    <div class="field"><span>Semester:</span> <span id="grade"> 4TH Sem </span></div>
+    <div class="field"><span>Graduation Year:</span> <span id="gradYear">2026</span></div>
+    <div class="field"><span>Issued On:</span> <span id="issued"> 24/06/2025 </span></div>
+  </div>
+
+  <div class="input-section">
+    <input type="text" id="inputName" placeholder="Enter Your Name">
+    <input type="text" id="inputId" placeholder="Enter Reg No.">
+    <input type="text" id="inputGrade" placeholder="Enter The Semester (e.g., 4TH SEM)">
+    <input type="text" id="inputGradYear" placeholder="Enter Graduation Year">
+    <input type="text" id="inputDate" placeholder="Enter Issue Date (e.g., Dec 20, 2024)">
+    <button onclick="updateCard()">Generate ID Card</button>
+    <button onclick="downloadPDF()">Download as PDF</button>
+  </div>
+
+</body>
+</html>
+

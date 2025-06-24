@@ -11,7 +11,7 @@ A simple web-based tool to generate and download student ID cards for IIITK stud
 
 ## 📸 Preview
 
-![Preview](images.png)
+![Preview](visuals.png)
 
 ## 🚀 How It Works
 
